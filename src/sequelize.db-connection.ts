@@ -1,4 +1,4 @@
-import { DatabaseConnector } from 'igris-it-core-components'
+import { DatabaseConnector } from 'igris-core'
 import { Sequelize } from 'sequelize-typescript'
 
 export const sequelize = new Sequelize({

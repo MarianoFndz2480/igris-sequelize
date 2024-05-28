@@ -1,7 +1,9 @@
 {
-    "name": "igris-it-infra-sequelize",
-    "version": "1.0.0",
-    "description": "",
+    "name": "igris-sequelize",
+    "version": "0.1.0",
+    "description": "Sequelize infrastructure of Igris framework",
+    "author": "Mariano Fernández",
+    "license": "MIT",
     "scripts": {
         "lint": "eslint --fix",
         "format": "prettier --write .",
@@ -18,8 +20,6 @@
         "dist"
     ],
     "keywords": [],
-    "author": "",
-    "license": "ISC",
     "devDependencies": {
         "@types/node": "^20.12.2",
         "@types/validator": "^13.11.10",
@@ -36,7 +36,8 @@
         "typescript": "^5.4.3"
     },
     "dependencies": {
-        "igris-it-core-components": "^1.1.4",
+        "esbuild-plugin-copy": "^2.1.1",
+        "igris-core": "^0.1.0",
         "pg-hstore": "^2.3.4",
         "reflect-metadata": "^0.2.2",
         "sequelize": "^6.37.2",

@@ -1,4 +1,4 @@
-import { CommonID, Model } from 'igris-it-core-components'
+import { CommonID, Model } from 'igris-core'
 import { SequelizeModelWrapper } from './sequelize-model.wrapper'
 
 export abstract class SequelizeRepository<T, M extends Model<{}>> {

@@ -1,4 +1,4 @@
-import { CommonID } from 'igris-it-core-components'
+import { CommonID } from 'igris-core'
 import { FindOptions, IncludeOptions, Model, ModelStatic, Optional, WhereOptions } from 'sequelize'
 
 export class SequelizeModelWrapper<T> {
